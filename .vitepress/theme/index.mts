@@ -4,11 +4,14 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
+import AGHomeSponsors from './components/AGHomeSponsors.vue'
+import AGHomeDonations from './components/AGHomeDonations.vue'
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      'home-features-after': () => [h(AGHomeSponsors), h(AGHomeDonations)]
     })
   },
   enhanceApp({ app, router, siteData }) {
