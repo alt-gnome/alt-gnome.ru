@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  name: "ALT Gnome"
-  text: "Свобдные программы для свободных людей"
-  tagline: My great project tagline
+  name: 'ALT Gnome'
+  text: 'Свобдные программы для свободных людей'
+  image:
+    src: /alt-gnome.svg
+    alt: GNOME
+  tagline: Сообщество продвижения графического окружения GNOME в дистрибутивах ALT Linux
   actions:
     - theme: brand
       text: Markdown Examples
@@ -13,6 +16,7 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+
 sponsors:
   message: Данный сервис является СПО-проектом и его поддержка и развитие зависит только от нашей совместной активности.
   data:
@@ -20,9 +24,9 @@ sponsors:
       size: big
       items:
         - name: ALT Linux Team
-          img: ./alt-linux-team.png
+          img: /alt-linux-team.svg
           url: https://packages.altlinux.org/ru/sisyphus/
         - name: Базальт СПО
-          img: ./basealt.png
+          img: /basealt.svg
           url: https://basealt.ru
 ---
