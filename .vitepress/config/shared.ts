@@ -6,6 +6,10 @@ import { normalize } from '../support/utils'
 export const shared = defineConfigWithTheme<DefaultTheme.Config>({
   srcDir: './src/pages',
   cleanUrls: true,
+  base: '',
+  sitemap: {
+    hostname: 'https://alt-gnome.ru/'
+  },
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
   ],
