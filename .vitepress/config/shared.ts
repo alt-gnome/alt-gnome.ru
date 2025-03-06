@@ -20,7 +20,7 @@ export const shared = defineConfigWithTheme<DefaultTheme.Config>({
       alt: 'ALT Gnome Logo'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/alt-gnome/alt-gnome.ru' }
     ]
   },
   transformPageData: (pageData) => {
